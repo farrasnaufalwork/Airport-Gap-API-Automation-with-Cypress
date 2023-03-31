@@ -223,7 +223,7 @@ describe('[AGTC010] Get Specific Data Favorited Airport', () => {
 
 //Update the Airport Data from Favorites (Positive)
 describe('[AGTC011] Update the Airport Data from Favorites', () => {
-  it('Response Status adalah 200, dan Data terperinci Airport pada Favorites berhasil di muat', () => {
+  it('Response Status adalah 200, serta Edit dan Update Data pada Airport Favorites berhasil', () => {
     const favoriteId = Cypress.env('favoriteId');
     cy.request({
       method: 'PATCH',
